@@ -1,0 +1,297 @@
+:root {
+    --dongker: #060047;
+    --abu: #20262E;
+}
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Raleway';
+    color: #080808;
+}
+
+.wrapper .logo span{
+    color: #287dd7;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #666;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #080808;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}    
+
+nav ul li a:hover {
+   text-decoration: underline; 
+   /* color: #645CBB;  */
+      
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .jargon {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #645CBB;
+}
+
+.kolom .jargon2 {
+    font-weight: bold;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #645CBB;
+}
+
+
+h2 {
+    font-family: 'Mynerve';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #080808;
+    width: 100%;
+    line-height: 50px;
+}
+
+h2 span {
+    color: #287dd7;
+}
+
+#camera {
+    color: #080808;
+}
+
+a.tbl-biru {
+    background: #645CBB;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background-color: #287dd7;
+    text-decoration: none;
+}
+
+a.tbl-biru2 {
+    color: #666;
+    font-weight: bold;  
+}
+
+
+a.tbl-biru2:hover {
+    text-decoration: underline;
+    color: #645CBB;
+}
+p {
+    margin: 10px 0px 10px 0px;
+    font-family: 'comic sans ms';
+}
+
+p span {
+    font-family: 'Raleway';
+    color: #287dd7;
+    font-weight: bold;
+}
+
+/* Kelebihan */
+.adv {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    text-align: center;
+    width: 100%;
+}
+
+.adv .kel {
+    color: #645CBB;
+    font-family: comic sans ms;
+}
+
+.logoadv {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 20%;
+    margin: auto;
+}
+
+.element img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.element p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 10px;
+    text-align: center;
+    color: #080808;
+}
+
+#contact {
+    background: #666;
+    padding: 50px 0px 50px 0px;
+}
+
+
+.footer img{
+    width: 50vh;
+    size-adjust: 50px;
+    position: relative;
+    padding: 0;
+}
+
+.footer {
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.footer-section {
+    width: 40vh;
+    margin:  auto;
+    
+
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #080808;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section a {
+    color: #080808;
+}
+
+a.youtube:hover {
+    size-adjust: 2rem;
+    color: red;
+}
+
+a.instagram:hover {
+    size-adjust: 2rem;
+    color: rgb(242, 86, 167);
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+@media  screen and (max-width: 991.98px) {
+    .wrapper{
+        width: 100%;
+    }
+
+    .logo a{
+        display: block;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
